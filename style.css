@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    min-width: 930px;
+}
+
+nav {
+    background-color: #746A93;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    max-width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 90px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+li a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px 26px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu:hover {
+    background-color: #9790AD;
+}
+
+.active {
+    background-color: #9790AD   ;
+}
+
+.copy {
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.copy a:hover {
+    background-color: #746A93;
+}
+
+
+.jumbotron {
+    background-color: #3FC4BA ;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.content {
+    margin-left: 100px;
+}
+
+.jumbotron h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.jumbotron p {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.page-wrapper {
+    margin: 0 100px;
+}
+
+.cv {
+    background-color: #354458;
+    float: right;
+    width: 50%;
+}
+
+.cv:hover {
+    background-color: #EB7260;
+}
+
+.github {
+    background-color: #77C5F7;
+    float: left;
+    width: 50%;
+}
+
+.github:hover {
+    background-color: #FC5A5D;
+}
+
+.github p, .cv p {
+    padding: 100px 0;
+    text-align: center;
+}
