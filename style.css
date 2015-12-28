@@ -5,6 +5,10 @@ body {
     min-width: 930px;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     background-color: #746A93;
     list-style:none;
@@ -32,7 +36,6 @@ li a {
     font-size: 18px;
     padding: 20px 26px;
     text-align: center;
-    text-decoration: none;
 }
 
 .menu:hover {
@@ -78,27 +81,46 @@ li a {
     margin: 0 100px;
 }
 
-.cv {
-    background-color: #354458;
+.right-one, .right-two {
     float: right;
     width: 50%;
 }
 
-.cv:hover {
+.right-one, .left-two {
+    background-color: #354458;
+}
+
+.right-one:hover, .left-two:hover {
     background-color: #EB7260;
 }
 
-.github {
-    background-color: #77C5F7;
+.left-one, .left-two  {
     float: left;
     width: 50%;
 }
 
-.github:hover {
+.left-one, .right-two {
+    background-color: #77C5F7;
+}
+
+.left-one:hover, .right-two:hover  {
     background-color: #FC5A5D;
 }
 
-.github p, .cv p {
-    padding: 100px 0;
+.social {
     text-align: center;
 }
+
+.icon-title {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 100px;
+    margin: 0;
+    
+}
+
+.icon {
+    padding-top: 100px;
+}
+
