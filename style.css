@@ -1,8 +1,11 @@
 body {
+    background-color: #E8E8E8;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     padding: 0;
     margin: 0;
-    min-width: 930px;
+    min-width: 990px;
+    text-align: justify;
 }
 
 a {
@@ -21,7 +24,7 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0;
-    margin-right: 95px;
+    margin-right: 90px;
     padding: 0;
     overflow: hidden;
 }
@@ -46,15 +49,12 @@ li a {
     background-color: #9790AD   ;
 }
 
-.copy {
-    font-size: 16px;
-    padding: 20px 0;
+.page-wrapper {
+    margin: 0 100px;
 }
-
-.copy a:hover {
-    background-color: #746A93;
+.page-content {
+    margin: 0 100px;
 }
-
 
 .jumbotron {
     background-color: #3FC4BA ;
@@ -63,23 +63,18 @@ li a {
     padding: 40px 0;
 }
 
-.content {
-    margin: 0 100px;
-}
 
 .jumbotron h1 {
-    margin: 0;
     font-size: 60px;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 .jumbotron p {
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 24px;
 }
 
-.page-wrapper {
-    margin: 0 100px;
-}
 
 .right-one, .right-two {
     float: right;
@@ -125,7 +120,7 @@ li a {
 }
 
 .fact {
-    color: #FFFFFF;
+    margin: 0;
     text-align: center;
 }
 
@@ -139,16 +134,10 @@ li a {
 .fact-text {
     background-color: #354458;
 }
-.fact-text p {
-    font-size: 70px;
-    margin-top: 0;
-    margin-bottom: 0;
+.fact p {
+    color: #FFFFFF;
+    font-size: 75px;
+    margin: 0;
     padding: 100px 0;
 }
 
-.fact-wrapper {
-    margin-right: 100px;
-    margin-left: 75px;
-    margin-bottom: 0;
-    margin-top: 0;
-}
