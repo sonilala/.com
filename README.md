@@ -2,7 +2,7 @@
 The source code for my personal website [Brawrdon.com](http://Brawrdon.com) which I use as my online portfolio.
 
 ## Screenshots
-Home: ![Home](http://brawrdon.com/assets/github/home2.png)
+Home: ![Home](http://brawrdon.com/assets/github/home3.png)
 
 About: ![About](http://brawrdon.com/assets/github/about2.png)
 
