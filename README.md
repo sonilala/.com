@@ -6,7 +6,7 @@ Home: ![Home](http://brawrdon.com/assets/github/home3.png)
 
 About: ![About](http://brawrdon.com/assets/github/about2.png)
 
-About > Coding: ![About > Coding](http://brawrdon.com/assets/github/about-coding.png)
+About > Coding: ![About > Coding](http://brawrdon.com/assets/github/about-coding2.png)
 
 Facts: ![Facts](http://brawrdon.com/assets/github/facts2.png)
 

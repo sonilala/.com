@@ -12,6 +12,12 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
 nav {
     background-color: #746A93;
     list-style:none;
@@ -174,9 +180,4 @@ li a {
 .right-image {
     float: right;
     margin: 0 0 10px 40px;
-}
-
-.left-image {
-    float: left;
-    margin: 0 40px 10px 0;
 }
