@@ -81,11 +81,11 @@ li a {
     width: 50%;
 }
 
-.right-one, .left-two {
+.right-one, .left-two, .fact-button {
     background-color: #354458;
 }
 
-.right-one:hover, .left-two:hover {
+.right-one:hover, .left-two:hover, .fact-button:hover {
     background-color: #EB7260;
 }
 
@@ -119,24 +119,23 @@ li a {
     padding-top: 100px;
 }
 
-.fact {
-    margin: 0;
+.fact, .quote {
+    color: #354458;
     text-align: center;
 }
 
-.fact h1 {
-    color: #354458;
-    font-size: 30px;
-    margin: 0;
+.fact h1, .quote h1 {
+    font-size: 35px;
     padding: 70px 0;
     text-transform: uppercase;
 }
-.fact-text {
-    background-color: #354458;
+
+.fact-text, .quote-text {
+    background-color: #FFFFFF;
 }
-.fact p {
-    color: #FFFFFF;
-    font-size: 75px;
+
+.fact-text p, .quote-text p {
+    font-size: 55px;
     margin: 0;
     padding: 100px 0;
 }
