@@ -4,8 +4,9 @@ The source code for my personal website [Brawrdon.com](http://Brawrdon.com) whic
 ## Screenshots
 Home: ![Home](http://brawrdon.com/assets/github/home2.png)
 
-Facts: ![Facts](http://brawrdon.com/assets/github/facts.png)
+Facts: ![Facts](http://brawrdon.com/assets/github/facts2.png)
 
+Quotes: ![Facts](http://brawrdon.com/assets/github/quotes.png)
 
 ## Tools used
 * Brackets Text Editor
