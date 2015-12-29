@@ -4,7 +4,9 @@ The source code for my personal website [Brawrdon.com](http://Brawrdon.com) whic
 ## Screenshots
 Home: ![Home](http://brawrdon.com/assets/github/home2.png)
 
-About: ![About](http://brawrdon.com/assets/github/about.png)
+About: ![About](http://brawrdon.com/assets/github/about2.png)
+
+About > Coding: ![About > Coding](http://brawrdon.com/assets/github/about-coding.png)
 
 Facts: ![Facts](http://brawrdon.com/assets/github/facts2.png)
 

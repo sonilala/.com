@@ -19,7 +19,7 @@
             <li><a class="menu" href="#">The Rest</a></li>
             <li><a class="menu" href="#">Media</a></li>
             <li><a class="menu" href="#">Websites / Apps</a></li>
-            <li><a class="active" href="../about">About</a></li>
+            <li><a class="menu" href="../about">About</a></li>
             <li><a class="menu" href="/">Home</a></li>
         </ul>
     </nav>
@@ -48,7 +48,7 @@
                             echo "<p>" . $fact_text . "</p>";
                         }
                         else {
-                            echo "<p>There is an error. (No really there was a problem)</p>";
+                            echo "<p>There was an error... Woops</p>";
                         }
 
                         mysqli_close($conn);

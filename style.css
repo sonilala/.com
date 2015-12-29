@@ -153,3 +153,30 @@ li a {
     padding: 100px 0;
 }
 
+.content {
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.content h2 {
+    color: #354458;
+    margin: 0;
+    padding: 40px 0 0 0;    
+}
+
+.content p {
+    color: #354458;
+    font-size: 25px;
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+
+.right-image {
+    float: right;
+    margin: 0 0 0 40px;
+}
+
+.left-image {
+    float: left;
+    margin: 0 40px 0 0;
+}
