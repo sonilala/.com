@@ -1,4 +1,4 @@
-<!--Copyright (c) Monday 28th December 2015 Brawrdon-->
+<!--Copyright (c) Monday 29th December 2015 Brawrdon-->
 <!DOCTYPE html>
 <html>
 
@@ -19,7 +19,7 @@
             <li><a class="menu" href="#">The Rest</a></li>
             <li><a class="menu" href="#">Media</a></li>
             <li><a class="menu" href="#">Websites / Apps</a></li>
-            <li><a class="menu" href="#">About</a></li>
+            <li><a class="menu" href="../about">About</a></li>
             <li><a class="menu" href="/">Home</a></li>
         </ul>
     </nav>
@@ -58,13 +58,13 @@
             <a href="../facts">
                 <div class="left-one">
                     <p class="icon"><img width="96px" src="../assets/img/buttons/fact.png"></p>
-                    <p class="icon-title">Random Facts</p>
+                    <p class="box-title">Random Facts</p>
                 </div>
             </a>
             <a href="../quotes">
                 <div class="right-one">
                     <p class="icon"><img src="../assets/img/buttons/refresh.png"></p>
-                    <p class="icon-title">Another Quote</p>
+                    <p class="box-title">Another Quote</p>
                 </div>
             </a>
         </div>

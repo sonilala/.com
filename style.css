@@ -76,7 +76,7 @@ li a {
 }
 
 
-.right-one, .right-two {
+.right-one, .right-two, .right-image {
     float: right;
     width: 50%;
 }
@@ -89,7 +89,7 @@ li a {
     background-color: #EB7260;
 }
 
-.left-one, .left-two  {
+.left-one, .left-two, .left-nolink  {
     float: left;
     width: 50%;
 }
@@ -98,15 +98,28 @@ li a {
     background-color: #77C5F7;
 }
 
+.left-nolink {
+    background-color: #FFFFFF;
+}
+
+.left-nolink p {
+    color: #354458;
+}
+
 .left-one:hover, .right-two:hover  {
     background-color: #FC5A5D;
 }
 
-.social {
+.tile {
     text-align: center;
 }
 
-.icon-title {
+.right-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-title {
     color: #FFFFFF;
     font-size: 26px;
     font-weight: 500;
@@ -119,12 +132,12 @@ li a {
     padding-top: 100px;
 }
 
-.fact, .quote {
+.seporator, .quote {
     color: #354458;
     text-align: center;
 }
 
-.fact h1, .quote h1 {
+.seporator h1, .quote h1 {
     font-size: 35px;
     padding: 70px 0;
     text-transform: uppercase;
