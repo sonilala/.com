@@ -92,7 +92,7 @@ li a {
 }
 
 .right-one:hover, .left-two:hover, .fact-button:hover {
-    background-color: #EB7260;
+    background-color: #CD3E3A;
 }
 
 .left-one, .left-two, .left-nolink  {
@@ -101,15 +101,7 @@ li a {
 }
 
 .left-one, .right-two {
-    background-color: #77C5F7;
-}
-
-.left-nolink {
-    background-color: #FFFFFF;
-}
-
-.left-nolink p {
-    color: #354458;
+    background-color: #2C99E0;
 }
 
 .left-one:hover, .right-two:hover  {
