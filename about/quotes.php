@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="../../style.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Random Quotes &bull; Brawrdon</title>
@@ -19,7 +19,7 @@
             <li><a class="menu" href="#">The Rest</a></li>
             <li><a class="menu" href="#">Media</a></li>
             <li><a class="menu" href="#">Websites / Apps</a></li>
-            <li><a class="menu" href="../about">About</a></li>
+            <li><a class="active" href="../../about/">About</a></li>
             <li><a class="menu" href="/">Home</a></li>
         </ul>
     </nav>
@@ -38,7 +38,7 @@
             <div class="quote-text">
                 <div class="page-content">
                     <?php
-                        require_once("scripts/connection.php");
+                        require_once("../scripts/connection.php");
                         $rand_id = rand(1, 20);
                         $sql = "SELECT * FROM ### WHERE ### = $rand_id";
                         $query = mysqli_query($conn, $sql);
@@ -55,16 +55,16 @@
                     ?>
                 </div>
             </div>
-            <a href="../facts">
-                <div class="left-one">
-                    <p class="icon"><img width="96px" src="../assets/img/buttons/fact.png"></p>
-                    <p class="box-title">Random Facts</p>
+           <a href="../../about/quotes/">
+                <div class="left-two">
+                    <p class="icon"><img src="../../assets/img/buttons/refresh.png"></p>
+                    <p class="box-title">Another Quote</p>
                 </div>
             </a>
-            <a href="../quotes">
-                <div class="right-one">
-                    <p class="icon"><img src="../assets/img/buttons/refresh.png"></p>
-                    <p class="box-title">Another Quote</p>
+            <a href="../../about/facts/">
+                <div class="right-two">
+                    <p class="icon"><img src="../../assets/img/buttons/fact.png"></p>
+                    <p class="box-title">Random Facts</p>
                 </div>
             </a>
         </div>
