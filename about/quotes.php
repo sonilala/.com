@@ -1,4 +1,4 @@
-<!--Copyright (c) Monday 29th December 2015 Brawrdon-->
+<!-- Last Updated 31th December 2015 - Brawrdon -->
 <!DOCTYPE html>
 <html>
 
@@ -31,31 +31,38 @@
                 <p>Sometimes I come up with fancy sentences that I think could be compiled into a MySQL database and displayed on a HTML page with PHP. This is that page.</p>
             </div>
         </div>
-        <div class="quote">
+        <div class="seporator">
             <div class="page-content">
                 <h1>The random quote is:</h1>
             </div>
-            <div class="quote-text">
-                <div class="page-content">
-                    <?php
+        </div>
+        <div class="quote-text">
+            <div class="page-content">
+                <?php
                         require_once("../scripts/connection.php");
                         $rand_id = rand(1, 20);
                         $sql = "SELECT * FROM ### WHERE ### = $rand_id";
                         $query = mysqli_query($conn, $sql);
                         if (mysqli_num_rows($query) > 0) {
-                            $quote_record = mysqli_fetch_assoc($query);
-                            $quote_text = $quote_record["###"];  
-                            echo "<p>\"" . $quote_text . "\"</p>";
+                            $fact_record = mysqli_fetch_assoc($query);
+                            $fact_text = $fact_record["###"];  
+                            echo "<p>\"" . $fact_text . "\"</p>";
                         }
                         else {
-                            echo "<p>There was an error. I didn't say that, there's just an error right now.</p>";
+                            echo "<p>There was an error... Woops</p>";
                         }
 
                         mysqli_close($conn);
-                    ?>
+                    ?>            </div>
+        </div>
+        <div class="tiles">
+            <a href="../../about/">
+                <div class="full-tile">
+                    <p class="icon"><img src="../../assets/img/buttons/back.png"></p>
+                    <p class="box-title">Back</p>
                 </div>
-            </div>
-           <a href="../../about/quotes/">
+            </a>
+            <a href="../../about/quotes/">
                 <div class="left-two">
                     <p class="icon"><img src="../../assets/img/buttons/refresh.png"></p>
                     <p class="box-title">Another Quote</p>
@@ -68,7 +75,7 @@
                 </div>
             </a>
         </div>
-        
+
     </div>
 
 </body>

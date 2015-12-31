@@ -1,4 +1,4 @@
-<!--Copyright (c) Monday 29th December 2015 Brawrdon-->
+<!-- Last Updated 31th December 2015 - Brawrdon -->
 <!DOCTYPE html>
 <html>
 
@@ -35,9 +35,10 @@
             <div class="page-content">
                 <h1>The random fact is:</h1>
             </div>
-            <div class="fact-text">
-                <div class="page-content">
-                    <?php
+        </div>
+        <div class="fact-text">
+            <div class="page-content">
+                <?php
                         require_once("../scripts/connection.php");
                         $rand_id = rand(1, 20);
                         $sql = "SELECT * FROM ### WHERE ### = $rand_id";
@@ -53,12 +54,19 @@
 
                         mysqli_close($conn);
                     ?>
-                </div>
             </div>
-           <a href="../../about/quotes/">
+        </div>
+        <div class="tiles">
+            <a href="../../about/">
+                <div class="full-tile">
+                    <p class="icon"><img src="../../assets/img/buttons/back.png"></p>
+                    <p class="box-title">Back</p>
+                </div>
+            </a>
+            <a href="../../about/quotes/">
                 <div class="left-two">
                     <p class="icon"><img src="../../assets/img/buttons/quote.png"></p>
-                    <p class="box-title">Random Quotes</p>
+                    <p class="box-title">Random Facts</p>
                 </div>
             </a>
             <a href="../../about/facts/">
@@ -67,9 +75,7 @@
                     <p class="box-title">Another Fact</p>
                 </div>
             </a>
- 
         </div>
-        
     </div>
 
 </body>

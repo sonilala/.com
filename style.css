@@ -1,3 +1,5 @@
+/* Last Updated 31th December 2015 - Brawrdon */
+
 body {
     background-color: #E8E8E8;
     font-family: 'Roboto', sans-serif;
@@ -14,7 +16,6 @@ a {
 
 img {
     max-width: 100%;
-    height: auto;
     vertical-align: bottom;
     width: auto\9; /* ie8 */
 }
@@ -83,6 +84,20 @@ li a {
 }
 
 
+.tiles {
+    text-align: center;
+}
+
+
+.full-tile {
+    background-color: #1AB269;
+}
+
+.full-tile:hover {
+    background-color: #E6467C;
+}
+
+
 .right-one, .right-two, .right-image {
     float: right;
     width: 50%;
@@ -93,7 +108,7 @@ li a {
 }
 
 .right-one:hover, .left-two:hover, .fact-button:hover {
-    background-color: #CD3E3A;
+    background-color: #DC3F3B;
 }
 
 .left-one, .left-two, .left-nolink  {
@@ -107,10 +122,6 @@ li a {
 
 .left-one:hover, .right-two:hover  {
     background-color: #FC5A5D;
-}
-
-.tile {
-    text-align: center;
 }
 
 .right-image {
@@ -129,14 +140,15 @@ li a {
 
 .icon {
     padding-top: 100px;
+    margin-top: 0;
 }
 
-.seporator, .quote {
+.seporator {
     color: #354458;
     text-align: center;
 }
 
-.seporator h1, .quote h1 {
+.seporator h1 {
     font-size: 35px;
     padding: 70px 0;
     text-transform: uppercase;
@@ -144,6 +156,8 @@ li a {
 
 .fact-text, .quote-text {
     background-color: #FFFFFF;
+    color: #354458;
+    text-align: center;
 }
 
 .fact-text p, .quote-text p {
