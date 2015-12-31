@@ -2,15 +2,13 @@
 The source code for my personal website [Brawrdon.com](http://Brawrdon.com) which I use as my online portfolio.
 
 ## Screenshots
-Home: ![Home](http://brawrdon.com/assets/github/home3.png)
+Home: ![Home](http://brawrdon.com/assets/github/home4.png)
 
-About: ![About](http://brawrdon.com/assets/github/about2.png)
+About: ![About](http://brawrdon.com/assets/github/about3.png)
 
-About > Coding: ![About > Coding](http://brawrdon.com/assets/github/about-coding2.png)
+About > Coding: ![About > Coding](http://brawrdon.com/assets/github/about-coding3.png)
 
-Facts: ![Facts](http://brawrdon.com/assets/github/facts2.png)
-
-Quotes: ![Quotes](http://brawrdon.com/assets/github/quotes.png)
+Facts: ![Facts](http://brawrdon.com/assets/github/facts3.png)
 
 ## Tools used
 * Brackets Text Editor
