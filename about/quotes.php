@@ -39,7 +39,7 @@
         <div class="quote-text">
             <div class="page-content">
                 <?php
-                        require_once("/scripts/connection.php");
+                        require_once("../scripts/connection.php");
                         $rand_id = rand(1, 20);
                         $sql = "SELECT * FROM ### WHERE ### = $rand_id";
                         $query = mysqli_query($conn, $sql);
@@ -57,19 +57,19 @@
             </div>
         </div>
         <div class="tiles">
-            <a href="about/quotes/">
+            <a href="/about/quotes/">
                 <div class="left-two">
                     <p class="icon"><img src="/assets/img/buttons/refresh.png"></p>
                     <p class="box-title">Another Quote</p>
                 </div>
             </a>
-            <a href="about/facts/">
+            <a href="/about/facts/">
                 <div class="right-two">
                     <p class="icon"><img src="/assets/img/buttons/fact.png"></p>
                     <p class="box-title">Random Facts</p>
                 </div>
             </a>
-            <a href="about/">
+            <a href="/about/">
                 <div class="full-tile">
                     <p class="icon"><img src="/assets/img/buttons/back.png"></p>
                     <p class="box-title">Back</p>
