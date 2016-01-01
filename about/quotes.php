@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="../../style.css" rel="stylesheet" type="text/css">
+    <link href="/style.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Random Quotes &bull; Brawrdon</title>
@@ -19,7 +19,7 @@
             <li><a class="menu" href="#">The Rest</a></li>
             <li><a class="menu" href="#">Media</a></li>
             <li><a class="menu" href="#">Websites / Apps</a></li>
-            <li><a class="active" href="../../about/">About</a></li>
+            <li><a class="active" href="/about/">About</a></li>
             <li><a class="menu" href="/">Home</a></li>
         </ul>
     </nav>
@@ -39,7 +39,7 @@
         <div class="quote-text">
             <div class="page-content">
                 <?php
-                        require_once("../scripts/connection.php");
+                        require_once("/scripts/connection.php");
                         $rand_id = rand(1, 20);
                         $sql = "SELECT * FROM ### WHERE ### = $rand_id";
                         $query = mysqli_query($conn, $sql);
@@ -53,25 +53,26 @@
                         }
 
                         mysqli_close($conn);
-                    ?>            </div>
+                    ?>
+            </div>
         </div>
         <div class="tiles">
-            <a href="../../about/">
-                <div class="full-tile">
-                    <p class="icon"><img src="../../assets/img/buttons/back.png"></p>
-                    <p class="box-title">Back</p>
-                </div>
-            </a>
-            <a href="../../about/quotes/">
+            <a href="about/quotes/">
                 <div class="left-two">
-                    <p class="icon"><img src="../../assets/img/buttons/refresh.png"></p>
+                    <p class="icon"><img src="/assets/img/buttons/refresh.png"></p>
                     <p class="box-title">Another Quote</p>
                 </div>
             </a>
-            <a href="../../about/facts/">
+            <a href="about/facts/">
                 <div class="right-two">
-                    <p class="icon"><img src="../../assets/img/buttons/fact.png"></p>
+                    <p class="icon"><img src="/assets/img/buttons/fact.png"></p>
                     <p class="box-title">Random Facts</p>
+                </div>
+            </a>
+            <a href="about/">
+                <div class="full-tile">
+                    <p class="icon"><img src="/assets/img/buttons/back.png"></p>
+                    <p class="box-title">Back</p>
                 </div>
             </a>
         </div>
