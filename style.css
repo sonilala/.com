@@ -90,7 +90,9 @@ li a {
 
 
 .full-tile {
-    background-color: #1AB269;
+    background-color: #008847;
+    float: left;
+    width: 100%;
 }
 
 .full-tile:hover {
@@ -168,6 +170,7 @@ li a {
 
 .content {
     background-color: #FFFFFF;
+    max-width: 1200px;
     overflow: hidden;
 }
 
