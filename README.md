@@ -2,18 +2,15 @@
 The source code for my personal website [Brawrdon.com](http://Brawrdon.com) which I use as my online portfolio.
 
 ## Screenshots
-Home: ![Home](http://brawrdon.com/assets/github/home4.png)
+Home: ![Home](http://brawrdon.com/assets/github/home6thjan.png)
 
-About: ![About](http://brawrdon.com/assets/github/about3.png)
+About: ![About](http://brawrdon.com/assets/github/about6thjan.png)
 
-About > Coding: ![About > Coding](http://brawrdon.com/assets/github/about-coding3.png)
-
-Facts: ![Facts](http://brawrdon.com/assets/github/facts3.png)
+About > Coding: ![Coding](http://brawrdon.com/assets/github/codingskills6th.png)
 
 ## Tools used
 * Brackets Text Editor
-* XAMPP (Widnows 10)
-* Google Fons
+* XAMPP (Windows 10)
+* Google Fonts
 * Google's Material Design icon set
-* A lot of Googling
 * My own free time and knowledge
