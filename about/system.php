@@ -1,4 +1,4 @@
-<!-- Last Updated 31th December 2015 - Brawrdon -->
+<!-- Last Updated 6th January  2016 - Brawrdon -->
 <!DOCTYPE html>
 <html>
 
@@ -11,14 +11,16 @@
 </head>
 
 <body>
+    <?php include("../scripts/advert-loader.html"); ?>
+
     <nav>
         <ul>
             <ul style="float:left;margin-left:90px; margin-right:0;">
                 <li><a class="menu" href="/">&copy; Brawrdon 2016</a></li>
             </ul>
-            <li><a class="menu" href="#">The Rest</a></li>
             <li><a class="menu" href="#">Media</a></li>
-            <li><a class="menu" href="#">Websites / Apps</a></li>
+            <li><a class="menu" href="#">Apps</a></li>
+            <li><a class="menu" href="/websites/">Websites</a></li>
             <li><a class="active" href="/about/">About</a></li>
             <li><a class="menu" href="/">Home</a></li>
         </ul>
@@ -50,6 +52,8 @@
                 <p style="padding-bottom:40px;">Storage: 250GB</p>
             </div>
         </div>
+        <div class="ad-leaderboard">
+<?php include("../scripts/advert-leaderboard.html"); ?>        </div>
         <div class="seporator">
             <div class="page-content">
                 <h1>Software</h1>

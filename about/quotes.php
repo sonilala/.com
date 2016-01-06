@@ -1,4 +1,4 @@
-<!-- Last Updated 31th December 2015 - Brawrdon -->
+<!-- Last Updated 6th January  2016 - Brawrdon -->
 <!DOCTYPE html>
 <html>
 
@@ -11,34 +11,36 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <ul style="float:left;margin-left:90px; margin-right:0;">
-                <li><a class="menu" href="/">&copy; Brawrdon 2016</a></li>
-            </ul>
-            <li><a class="menu" href="#">The Rest</a></li>
-            <li><a class="menu" href="#">Media</a></li>
-            <li><a class="menu" href="#">Websites / Apps</a></li>
-            <li><a class="active" href="/about/">About</a></li>
-            <li><a class="menu" href="/">Home</a></li>
-        </ul>
-    </nav>
-    <div class="page-wrapper">
+    <?php include("../scripts/advert-loader.html"); ?>
 
-        <div class="jumbotron">
-            <div class="page-content">
-                <h1>Random Quotes</h1>
-                <p>Sometimes I come up with fancy sentences that I think could be compiled into a MySQL database and displayed on a HTML page with PHP. This is that page.</p>
+        <nav>
+            <ul>
+                <ul style="float:left;margin-left:90px; margin-right:0;">
+                    <li><a class="menu" href="/">&copy; Brawrdon 2016</a></li>
+                </ul>
+                <li><a class="menu" href="#">Media</a></li>
+                <li><a class="menu" href="#">Apps</a></li>
+                <li><a class="menu" href="/websites/">Websites</a></li>
+                <li><a class="active" href="/about/">About</a></li>
+                <li><a class="menu" href="/">Home</a></li>
+            </ul>
+        </nav>
+        <div class="page-wrapper">
+
+            <div class="jumbotron">
+                <div class="page-content">
+                    <h1>Random Quotes</h1>
+                    <p>Sometimes I come up with fancy sentences that I think could be compiled into a MySQL database and displayed on a HTML page with PHP. This is that page.</p>
+                </div>
             </div>
-        </div>
-        <div class="seporator">
-            <div class="page-content">
-                <h1>The random quote is:</h1>
+            <div class="seporator">
+                <div class="page-content">
+                    <h1>The random quote is:</h1>
+                </div>
             </div>
-        </div>
-        <div class="quote-text">
-            <div class="page-content">
-                <?php
+            <div class="quote-text">
+                <div class="page-content">
+                    <?php
                         require_once("../scripts/connection.php");
                         $rand_id = rand(1, 20);
                         $sql = "SELECT * FROM ### WHERE ### = $rand_id";
@@ -54,30 +56,33 @@
 
                         mysqli_close($conn);
                     ?>
+                </div>
             </div>
-        </div>
-        <div class="tiles">
-            <a href="/about/quotes/">
-                <div class="left-two">
-                    <p class="icon"><img src="/assets/img/buttons/refresh.png"></p>
-                    <p class="box-title">Another Quote</p>
+            <div class="tiles">
+                <div class="ad-leaderboard">
+                    <?php include("../scripts/advert-leaderboard.html"); ?>
                 </div>
-            </a>
-            <a href="/about/facts/">
-                <div class="right-two">
-                    <p class="icon"><img src="/assets/img/buttons/fact.png"></p>
-                    <p class="box-title">Random Facts</p>
-                </div>
-            </a>
-            <a href="/about/">
-                <div class="full-tile">
-                    <p class="icon"><img src="/assets/img/buttons/back.png"></p>
-                    <p class="box-title">Back</p>
-                </div>
-            </a>
-        </div>
+                <a href="/about/quotes/">
+                    <div class="left-two">
+                        <p class="icon"><img src="/assets/img/buttons/refresh.png"></p>
+                        <p class="box-title">Another Quote</p>
+                    </div>
+                </a>
+                <a href="/about/facts/">
+                    <div class="right-two">
+                        <p class="icon"><img src="/assets/img/buttons/fact.png"></p>
+                        <p class="box-title">Random Facts</p>
+                    </div>
+                </a>
+                <a href="/about/">
+                    <div class="full-tile">
+                        <p class="icon"><img src="/assets/img/buttons/back.png"></p>
+                        <p class="box-title">Back</p>
+                    </div>
+                </a>
+            </div>
 
-    </div>
+        </div>
 
 </body>
 

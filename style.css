@@ -1,4 +1,4 @@
-/* Last Updated 31th December 2015 - Brawrdon */
+/* ===[ Last Updated 6th January 2016 - Brawrdon ]=== */
 
 body {
     background-color: #E8E8E8;
@@ -11,21 +11,22 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 img {
     max-width: 100%;
     vertical-align: bottom;
-    width: auto\9; /* ie8 */
+    width: auto\9;
+    /* ie8 */
 }
 
 nav {
     background-color: #746A93;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
     max-width: 100%;
 }
 
@@ -38,11 +39,11 @@ nav ul {
 }
 
 nav li {
-    float: right;
+    float: right
 }
 
 li a {
-    color: #FFFFFF;
+    color: #FFF;
     display: inline-block;
     font-size: 18px;
     padding: 20px 26px;
@@ -50,27 +51,27 @@ li a {
 }
 
 .menu:hover {
-    background-color: #9790AD;
+    background-color: #9790AD
 }
 
 .active {
-    background-color: #9790AD   ;
+    background-color: #9790AD
 }
 
 .page-wrapper {
-    margin: 0 100px;
+    margin: 0 100px
 }
+
 .page-content {
-    margin: 0 100px;
+    margin: 0 100px
 }
 
 .jumbotron {
-    background-color: #3FC4BA ;
-    color: #FFFFFF;
+    background-color: #3FC4BA;
+    color: #FFF;
     width: 100%;
     padding: 40px 0;
 }
-
 
 .jumbotron h1 {
     font-size: 60px;
@@ -79,51 +80,63 @@ li a {
 }
 
 .jumbotron p {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 24px;
 }
 
-
 .tiles {
-    text-align: center;
+    text-align: center
 }
 
-
 .full-tile {
-    background-color: #008847;
+    background-color: #0AAA5D;
     float: left;
     width: 100%;
 }
 
 .full-tile:hover {
-    background-color: #E6467C;
+    background-color: #E6467C
 }
 
-
-.right-one, .right-two, .right-image {
+.right-one,
+.right-two {
     float: right;
     width: 50%;
 }
 
-.right-one, .left-two, .fact-button {
-    background-color: #354458;
+.right-one,
+.left-two,
+.fact-button {
+    background-color: #354458
 }
 
-.right-one:hover, .left-two:hover, .fact-button:hover {
-    background-color: #DC3F3B;
+.right-one:hover,
+.left-two:hover,
+.fact-button:hover {
+    background-color: #DC3F3B
 }
 
-.left-one, .left-two, .left-nolink  {
+.left-one,
+.left-two,
+.left-nolink {
     float: left;
     width: 50%;
 }
 
-.left-one, .right-two {
-    background-color: #2C99E0;
+.left-one,
+.right-two {
+    background-color: #2C99E0
 }
 
-.left-one:hover, .right-two:hover  {
-    background-color: #FC5A5D;
+.left-one:hover,
+.right-two:hover {
+    background-color: #FC5A5D
+}
+
+.ad-leaderboard {
+    background-color: #FFB14E;
+    float: inherit;
+    width: 100%;
 }
 
 .right-image {
@@ -132,12 +145,11 @@ li a {
 }
 
 .box-title {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 26px;
     font-weight: 500;
     padding-bottom: 100px;
     margin: 0;
-    
 }
 
 .icon {
@@ -146,48 +158,59 @@ li a {
 }
 
 .seporator {
-    color: #354458;
-    text-align: center;
+    padding: 70px 0;
 }
 
 .seporator h1 {
+    color: #354458;
     font-size: 35px;
-    padding: 70px 0;
+    text-align: center;
     text-transform: uppercase;
 }
 
-.fact-text, .quote-text {
-    background-color: #FFFFFF;
+.fact-text,
+.quote-text {
+    background-color: #FFF;
     color: #354458;
     text-align: center;
 }
 
-.fact-text p, .quote-text p {
+.fact-text p,
+.quote-text p {
     font-size: 55px;
     margin: 0;
     padding: 100px 0;
 }
 
 .content {
-    background-color: #FFFFFF;
-    max-width: 1200px;
+    background-color: #FFF;
     overflow: hidden;
+}
+
+.content img {
+    text-align: center;
+    margin: auto;
 }
 
 .content h2 {
     color: #354458;
     margin: 0;
-    padding: 40px 0 0 0;    
+    padding: 40px 0 0;
 }
 
 .content p {
     color: #354458;
     font-size: 25px;
     margin: 0;
-    padding: 40px 0 0 0;
+    padding: 40px 0 0;
+}
+
+.left-image {
+    float: left;
+    width: 50%;
 }
 
 .right-image {
     float: right;
-    margin: 0 0 10px 40px;
+    width: 50%;
 }
