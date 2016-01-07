@@ -29,7 +29,7 @@
             <div class="jumbotron">
                 <div class="page-content">
                     <h1>About Me</h1>
-                    <p>In an attempt to keep this website as minimal as possible, I'm going to try to tell you about me through tiless. How fun is that?</p>
+                    <p>In an attempt to keep this website as minimal as possible, I'm going to try to tell you about me through tiles. How fun is that?</p>
                 </div>
             </div>
             <div class="seporator">
