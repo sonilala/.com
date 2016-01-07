@@ -39,7 +39,7 @@
             </div>
             <div class="content">
                 <div class="page-content">
-                    <p>It's quite simple really, if you want to suppport me but don't feel like money is an option just using my stuff is extremely helpful! Not only does it show me that you like the things I make, it increases the likelyhood of other people using it. Let's take this example, if you use the todo list app (that me and Sonia are planning to create) often then our page ranks will increase meaning it'll become easier for people to find our product, making it more likely for our user base to grow and with an increased user base the price for ad space on the site will increasing. And all you've done is reminded yourself to buy milk!</p>
+                    <p>It's quite simple really, if you want to suppport me but don't feel like money is an option just using my stuff is extremely helpful! Not only does it show me that you like the things I make, it increases the likelyhood of other people using it. Let's take this example, if you use the todo list app (that me and Sonia are planning to create) often then our page ranks will increase meaning it'll become easier for people to find our product, making it more likely for our user base to grow and with an increased user base the price for ad space on the site will increase too. And all you've done is reminded yourself to buy milk!</p>
                     <p style="padding-bottom:40px;">If you really like my stuff, don't forget to share it. A simple tweet means the world to me!</p>
                 </div>
             </div>
