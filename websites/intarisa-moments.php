@@ -41,7 +41,7 @@
 
         <div class="content">
             <div class="page-content">
-                <p style="padding-bottom:40px;">Intarsia Moments is a website I created for my Mum. She's an avid knitter and thought it would be cool to start a bussiness since a few of my friends wanted her to make them things. The site is made mostly with HTML and CSS for the static webpages and PHP to create the custom knits form. I designed it myself, with some input from my mum and I'm pretty pleased with the end result! It's really my first commercial website.</p>
+                <p style="padding-bottom:40px;">Intarsia Moments is a website I created for my mum. She's an avid knitter and thought it would be cool to start a bussiness since a few of my friends wanted her to make them things. The site is made mostly with HTML and CSS for the static webpages and PHP to create the custom knits form. I designed it myself, with some input from my mum and I'm pretty pleased with the end result! It's really my first commercial website.</p>
             </div>
 
         </div>
